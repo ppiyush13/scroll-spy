@@ -1,6 +1,8 @@
 # Scroll-spy 
 
-Implementing scroll-spy using IntersectionObserver. This module is implemented in pure JavaScript with exports for react using hook API.
+![scroll-spy demo](/assets/scroll-spy-demo.webp)
+
+Implementing scroll-spy using IntersectionObserver. This module is implemented in pure JavaScript with added exports for react using hook API.
 
 This module is useful for implementing ScrollSpy menus.
 
@@ -11,6 +13,3 @@ Implementing scroll-spy using IntersectionObserver comes with benefits that all 
 - Behavior is unknown if the multiple headers shares the same title and ids
 - If there is large gap between adjacent headers, then on page refresh initial state is undefined
 
-## Demo
-
-![scroll-spy demo](/assets/scroll-spy-demo.webp)
