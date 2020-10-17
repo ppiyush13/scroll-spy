@@ -12,3 +12,5 @@ Implementing scroll-spy using IntersectionObserver comes with benefits that all 
 - If there is large gap between adjacent headers, then on page refresh initial state is undefined
 
 ## Demo
+
+![scroll-spy demo](/assets/scroll-spy-demo.webp)
