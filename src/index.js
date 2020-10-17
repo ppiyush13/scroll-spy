@@ -22,8 +22,6 @@ export default  (options) => {
 
     /* create intersection observer instance */
     const observer = new IntersectionObserver((entries) => {
-        console.time('entry');
-
         /* update scrollWindow with new entries */
         entries.forEach(entry => {
             const id = getSelector(entry.target);
@@ -39,8 +37,6 @@ export default  (options) => {
 
         /* flush all notifications */
         notification.flush();
-
-        console.timeEnd('entry');
     }, options);
 
     return {
