@@ -30,8 +30,8 @@ export const MenuItem = ({ headerKey }: { headerKey: PageHeaderKind }) => {
 };
 
 const Item = styled.a<{ level: number; isActive: boolean }>`
-  display: block;
-  margin: 0.5rem;
+  display: inline-block;
+  margin: 0.4rem;
   list-style-type: none;
   margin-left: ${(props) => props.level}rem;
   font-weight: ${(props) => (props.isActive ? 'bold' : '')};
