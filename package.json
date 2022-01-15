@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Scroll spy using intersection observer",
   "license": "0BSD",
+  "homepage": "scroll-spy",
   "author": {
     "name": "Piyush Lodaya",
     "email": "ppiyush13@gmail.com"
