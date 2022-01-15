@@ -6,7 +6,7 @@ function createHeader(title: string, level: number) {
     level,
     slug: slugify(title, {
       lower: true,
-      remove: /[\d\.]/,
+      remove: /[\d.]/,
     }),
   };
 }
